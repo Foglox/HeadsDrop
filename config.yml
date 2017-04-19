@@ -1,0 +1,147 @@
+# HeadsDrop Configuration
+
+# If set to true, the entity will not need to be killed by a player to drop her head
+ignore-killer: false
+
+# Increase chance of head drops by this percentage per level (set to 0 to disable)
+looting: 10.0
+
+# List of all entities (case sensitive): https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+# chance is the percentage chance to drop a head
+# head is the name of the player where we are going to take the head
+# display-name is the display name of the head in the inventory
+entities:
+  PLAYER:
+    chance: 100
+  BAT:
+    chance: 30
+    head: "bozzobrain"
+    display-name: "Bat"
+  BLAZE:
+    chance: 30
+    head: "MHF_Blaze"
+    display-name: "Blaze"
+  CAVE_SPIDER:
+    chance: 30
+    head: "MHF_CaveSpider"
+    display-name: "Cave Spider"
+  CHICKEN:
+    chance: 30
+    head: "MHF_Chicken"
+    display-name: "Chicken"
+  COW:
+    chance: 30
+    head: "MHF_Cow"
+    display-name: "Cow"
+  CREEPER:
+    chance: 20
+    head: "MHF_Creeper"
+    display-name: "Creeper"
+  DONKEY:
+    chance: 20
+    head: "MHF_Blaze"
+    display-name: "name"
+  ELDER_GUARDIAN:
+    chance: 0.5
+    head: "MHF_EGuardian"
+    display-name: "Elder Guardian"
+  ENDERMAN:
+    chance: 10.5
+    head: "MHF_Enderman"
+    display-name: "Enderman"
+  ENDERMITE:
+    chance: 10
+    head: "MHF_Endermite"
+    display-name: "Endermite"
+  GHAST:
+    chance: 0.5
+    head: "MHF_Ghast"
+    display-name: "Ghast"
+  GUARDIAN:
+    chance: 10
+    head: "MHF_Guardian"
+    display-name: "Guardian"
+  HORSE:
+    chance: 30
+    head: "Lion"
+    display-name: "Horse"
+  IRON_GOLEM:
+    chance: 0.5
+    head: "MHF_Golem"
+    display-name: "MHF_Golem"
+  MAGMA_CUBE:
+    chance: 20
+    head: "MHF_LavaSlime"
+    display-name: "Magma Cube"
+  MUSHROOM_COW:
+    chance: 50
+    head: "MHF_MushroomCow"
+    display-name: "Mushroom Cow"
+  OCELOT:
+    chance: 20
+    head: "MHF_Ocelot"
+    display-name: "Ocelot"
+  PIG:
+    chance: 20
+    head: "MHF_Pig"
+    display-name: "Pig"
+  PIG_ZOMBIE:
+    chance: 20
+    head: "MHF_PigZombie"
+    display-name: "Pig Zombie"
+  POLAR_BEAR:
+    chance: 20
+    head: "Polar_Bear"
+    display-name: "Polar Bear"
+  RABBIT:
+    chance: 30
+    head: "MHF_Bunny"
+    display-name: "Rabbit"
+  SHEEP:
+    chance: 30
+    head: "MHF_Sheep"
+    display-name: "Sheep"
+  SHULKER:
+    chance: 10
+    head: "MHF_Shulker"
+    display-name: "Shulker"
+  SILVERFISH:
+    chance: 50
+    head: "AlexVMiner"
+    display-name: "Silverfish"
+  SKELETON:
+    chance: 30
+    head: "MHF_Skeleton"
+    display-name: "Skeleton"
+  SLIME:
+    chance: 20
+    head: "MHF_Slime"
+    display-name: "Slime"
+  SNOWMAN:
+    chance: 20
+    head: "MHF_SnowGolem"
+    display-name: "Snowman"
+  SPIDER:
+    chance: 20
+    head: "MHF_Spider"
+    display-name: "Spider"
+  SQUID:
+    chance: 30
+    head: "MHF_Squid"
+    display-name: "Squid"
+  VILLAGER:
+    chance: 45
+    head: "MHF_Villager"
+    display-name: "Villager"
+  WITCH:
+    chance: 35.5
+    head: "MHF_Witch"
+    display-name: "Witch"
+  WOLF:
+    chance: 20
+    head: "MHF_Wolf"
+    display-name: "Wolf"
+  ZOMBIE:
+    chance: 20
+    head: "MHF_Zombie"
+    display-name: "Zombie"

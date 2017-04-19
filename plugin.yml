@@ -1,0 +1,12 @@
+name: HeadsDrop
+author: Thoquent
+main: fr.thoquent.headsdrop.HeadsDrop
+version: 1.1
+description: Simple plugin to make monsters and animals drop their head
+commands:
+  headsdrop:
+    description: Displays the plugin version
+    permission: headsdrop.version
+permissions:
+  headsdrop.reload:
+    default: op
