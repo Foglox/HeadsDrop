@@ -33,10 +33,6 @@ entities:
     chance: 30
     head: "MHF_Cow"
     display-name: "Cow"
-  CREEPER:
-    chance: 20
-    head: "MHF_Creeper"
-    display-name: "Creeper"
   DONKEY:
     chance: 20
     head: "MHF_Blaze"
@@ -109,10 +105,6 @@ entities:
     chance: 50
     head: "AlexVMiner"
     display-name: "Silverfish"
-  SKELETON:
-    chance: 30
-    head: "MHF_Skeleton"
-    display-name: "Skeleton"
   SLIME:
     chance: 20
     head: "MHF_Slime"
@@ -141,7 +133,3 @@ entities:
     chance: 20
     head: "MHF_Wolf"
     display-name: "Wolf"
-  ZOMBIE:
-    chance: 20
-    head: "MHF_Zombie"
-    display-name: "Zombie"
